@@ -72,7 +72,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 	$subject = "From: ".$email ."(" .$name ." " .$subject .")";
 	
 
-	$from = 'chinu50patil@gmail.com'; //change this to your email address
+	$from = 'sarchmailbase@gmail.com'; //change this to your email address
 	$to = 'chinu50patil@gmail.com'; // change to address
 	$subject = 'Insert subject here'; // subject of mail
 	$body = "Hello world! this is the content of the email"; //content of mail
@@ -87,8 +87,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 			'host' => 'ssl://smtp.gmail.com',
 			'port' => '465',
 			'auth' => true,
-			'username' => 'chinu50patil@gmail.com', //your gmail account
-			'password' => 'MH!!ac5610' // your password
+			'username' => 'sarchmailbase@gmail.com', //your gmail account
+			'password' => 'sarchmailbase11@@' // your password
 		));
 	
 	// Send the mail
